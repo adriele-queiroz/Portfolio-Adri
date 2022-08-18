@@ -1,169 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">  
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">    
-<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <!-- header -->
-  <header class="nav">
-
-    <!-- desktop menu -->
-    <nav>
-      <a href="#skills-area" class="nav-item">Habilidades</a>
-      <a href="#project-area" class="nav-item">Projetos</a>
-      <a href="#contact-area" class="nav-item">Contato</a>
-    </nav>
-
-</header>
-<main>
-<!-- home -->
-<section class="container-home" id="home">
-    <div id="top">
-      <div id="home-right-side">
-        <p>Olá, me chamo</p>
-        <h1>Adriele Queiroz</h1>
-        <p>Desenvoldedora full Stack Jr</p>
-      </div>
-      <div id="home-left-side">
-        <a href="Adriele Queiroz 2022.pdf" download="curriculo_adriele_queiroz.pdf" type="application/pdf" id="download-btn">
-          Baixar Currículo </a>
-      </div>
-    </div>
-    <div id="bottom">
-      <a href="#about-me">      
-      </a>
-    </div>    
-  </section>
-        
-  <!-- skills -->
-  <section class="container-skills section" id="skills-area">
-    <h2 id="skills" class="title-main">Habilidades</h2>
-    <div class="skills-icon">
-      <img class="list-item" src="html.png" alt="html-logo" title="HTML5" />
-      <img class="list-item" src="css.png" alt="css-logo" title="CSS3" />
-      <img class="list-item" src="sql.png" alt="sql-logo" title="BANCO DE DADOS" />
-      <img class="list-item" src="visual.png" alt="visual-logo" title="VISUAL STUDIO">
-      </div>
-    <div class="skill-bar">
-      <ul>
-        <li>
-          <b>HTML 5</b>
-          <div class="progress-bar">
-            <div class="progress-data">
-              <p>70%</p>
+    <header class="nav">
+        <nav>
+            <a href="#habilidades-area" class="nav-item">Habilidades</a>
+            <a href="#projeto-area" class="nav-item">Projetos</a>
+            <a href="#contato-area" class="nav-item">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container-home" id="home">
+            <div id="top">
+                <div id="home-right-side">
+                <p>Olá me chamo</p>
+                <h1>Adriele Queiroz</h1>
+                <p>Desenvolvedora Full Stack Jr</p>
             </div>
-          </div>
-        </li>
-        <li>
-          <b>CSS 3</b>
-          <div class="progress-bar">
-            <div class="progress-data">
-              <p>70%</p>
+            <div id="home-left-side">
+                <a href="Adriele Queiroz 2022.pdf" download="curriculo_adriele_queiroz.pdf" type="application/pdf" id="download-btn"> Baixar Currículo</a>
             </div>
-          </div>
-        </li>
-        <li>
-          <b>BANCO DE DADOS</b>
-          <div class="progress-bar">
-            <div class="progress-data">
-              <p>70%</p>
+                </div>
+            <div id="buttom"> </div>
+        </section>
+
+        <section class="container-habilidades section" id="habilidades-area">
+            <h2 id="habilidades" class="titulo-principal">Habilidades</h2>
+            <div class="habilidades-icon">
+                <img class="lista-item" src="html.png" alt="html-logo" title="HTML5"/>
+                <img class="lista-item" src="css.png" alt="css.logo" title="CSS3"/>
+                <img class="lista-item" src="sql.png" alt="sql.logo" title="BANCO DE DADOS"/>
+                <img class="lista-item" src="visual.png" alt="visula.logo" title="VISUAL STUDIO">
+               </div>
+            <div class="habilidades-bar">
+                <ul>
+                    <li>
+                        <b>HTML5</b>
+                        <div class="progress-bar">
+                            <p>70%</p>
+                        </div>
+                    </li>
+                    <li>
+                        <b>CSS3</b>
+                        <div class="progress-bar">
+                            <p>70%</p>
+                        </div>
+                    </li>
+                    <li>
+                        <B>BANCO DE DADOS</B> 
+                        <div class="progress-bar">
+                            <p>70%</p>
+                        </div>
+                    </li>
+                    <li>
+                        <b>VISUAL STUDIO</b>
+                        <div class="progress-bar">
+                            <p>50%</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+        <section class="container-portfolio section" id="projeto-area">
+            <div class="centralizador projetos">
+                <h2 id="habilidades" class="title-main">Projetos</h2>
+                <div class="projetos-itens">
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                       </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                </div>            
+        </section>
+        <section class="container-contato section" id="contato-area">
+            <h2 class="title-main">Contato</h2>
+            <div>
+                <h2>Adriele Queiroz</h2>
+                <p>E-mail: adriqueirozz@gmai.com</p>
+                <p>Telefone: 47.99737-2182</p>
+                <div class="social-list ">
+                    <a href="https://gitub.com/adriele-queiroz" rel="noopener" target="_blank" title="GitHub"> 
+                        <img src="git.png" alt="git.logo" height="35" width="35" class="social-itens"></a>
+                    <a href="https://www.linkedin.com/in/adriele-queiroz-911417188/" target="_blank" rel="noopener"
+                    title="Linkedin"> 
+                        <img src="linkedin.png" alt="linkedin.logo" height="35" width="35" class="social-itens"></a>    
+                </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <b>VISUAL STUDIO</b>
-          <div class="progress-bar">
-            <div class="progress-data">
-              <p>50%</p>
-            </div>
-          </div>
-        </li>
-       </ul>
-    </div>
-  </section>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-<!-- portfolio -->
-<section  class="container-portifolio section" id="project-area" >
-  <div class="centralizador projetos">
-    <h2 id="skills" class="title-main">Projetos</h2>
-    <div class="projetos-itens">
-      <div class="pro">
-        <div class="breve"><p>EM BREVE</p></div>
-      </div>
-      <div class="pro">
-        <div class="breve"><p>EM BREVE</p></div>
-      </div>
-      <div class="pro">
-        <div class="breve"><p>EM BREVE</p></div>
-      </div>
-       </div>
-  </section>
+            <form action=""></form>
+        </section>
+    </main>
 
-<br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
- <!-- contact me -->
- <section class="container-contact section" id="contact-area">
-    <h2 class="title-main">Contato</h2>
-    <div>
-        <h2>Adriele Queiroz</h2>
-        <p>E-mail: adriqueirozz@gmail.com</p>
-        <p>Telefone: 47.99737-2182</p>
-        <div class="social-list">
-            <a href="https://github.com/adriele-queiroz" rel="noopener" target="_blank" title="GitHub">
-              <img src="git.png" alt="github-logo" height="35" width="35"class="social-items">
-            </a>
-            <a href="https://www.linkedin.com/in/adriele-queiroz-911417188/" target="_blank" rel="noopener"
-              title="Linkedin">
-              <img src="linkedin.png" alt="linkedin-logo" height="35" width="35"class="social-items">
-            </a>
-          </div>
-    </div>
-    <form action="">
-
-      
-  </section>
-</main>
-
-<!-- footer -->
-<footer>
-  <p>© 2022 Adriele Queiroz - Desenvoldedora full Stack Jr</p>
-</footer>
-
-</body>        
-<html>
-    
+    <footer>
+        <p>@2022 Adriele Queiroz - Desenvolvedora Full Stack Jr</p>
+    </footer>    
+</body>
+</html>
