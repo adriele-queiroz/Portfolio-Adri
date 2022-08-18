@@ -13,18 +13,6 @@ body{
     background: linear-gradient(68.15deg,hsl(0, 0%, 98%) 16.62%, hsl(15, 2%, 33%)) 85.61%;
 }
 
-.root {
-    --home-background: linear-gradient(to bottom, #ace2e4, #eeeeee);
-    --backgroundColor: #eeeeee;
-    --secondaryColor: #2b2e4e;
-    --titleMain: #e44f45;
-    --textColor: #24201b;
-  }
-
-body {
-    background-color: var(--backgroundColor);
-    color:var(--textColor);
-}
 
 header {
     width:100%;
@@ -65,11 +53,9 @@ main {
 }
 
 .titulo-principal::after{
-    content: "";
     width: 65%;
     height: 5px;
     display: block;
-    background-color: rgba(195, 195, 196, 0.603);
     bottom: 0;
     margin: -4px auto;
     z-index: -1;
@@ -282,5 +268,6 @@ button:hover {
     margin-bottom: 2rem;
     font-weight: bold;
     font-size: 2.2rem;
-    font-family: 'Sarala', sans-serif;      
+    font-family: 'Sarala', sans-serif;  
+     
      }
