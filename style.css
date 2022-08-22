@@ -11,6 +11,7 @@
 body{
     font-size: 100%;
     background: linear-gradient(68.15deg,hsl(0, 0%, 98%) 16.62%, hsl(15, 2%, 33%)) 85.61%;
+    font-family: 'Sarala', sans-serif;
 }
 
 
@@ -48,7 +49,7 @@ main {
     width: max-content;
     margin-bottom: 2rem;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     font-family: 'Sarala', sans-serif;
 }
 
@@ -141,19 +142,55 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     width: auto;
     padding-top: 150px;
     font-family: 'Sarala', sans-serif;
+    font-size: 20px;
     gap: 24px    
  }
 
- .habilidades-icon {
+.primeira{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100px;
-    gap: 20px
- }
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #C4C4C4;
+    padding: 12px;
+    border-radius: 10px;
+
+} 
+
+.segunda {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #C4C4C4;
+    padding: 8px;
+    border-radius: 10px;   
+       
+}
+.terceira {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 30px;
+    background-color: #C4C4C4;
+    padding: 12px;
+    border-radius: 10px;       
+}
+.quarta {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 30px;
+    background-color: #C4C4C4;
+    padding: 12px;
+    border-radius: 10px;       
+}
+
 
 .projetos {
     padding-top: 93px;
@@ -168,7 +205,7 @@ h1 {
 }
 
 button {
-    padding: 10px 100px;
+    padding: 10px 150px;
     border-radius: 25px;
     cursor: pointer;
     color: white;
@@ -199,7 +236,7 @@ button:hover {
   }
   
   .pro div p {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-size: 20px;
     color: #C4C4C4;
   }  
@@ -260,6 +297,7 @@ button:hover {
     font-size: 20px;
     padding-top: 500px;
     text-align: center;
+        
  } 
  .title-main {
     color: var(--titlemain);
